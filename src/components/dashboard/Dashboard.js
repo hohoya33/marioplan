@@ -27,6 +27,6 @@ const mapStateToProps = (state) => {
   return {
     projects: state.project.projects
   };
-}
+};
 
 export default connect(mapStateToProps)(Dashboard);
